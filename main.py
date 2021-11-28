@@ -1,14 +1,14 @@
 from PyQt5.QtGui import QPainter, QColor
 from PyQt5.QtWidgets import QApplication, QMainWindow
 import sys
-from design import Ui_MainWindow
+from PyQt5 import uic
 from random import randint
 
 
-class YellowCircles(Ui_MainWindow, QMainWindow):
+class YellowCircles(QMainWindow):
     def __init__(self):
         super().__init__()
-        self.setupUi(self)
+        uic.loadUi('ui.ui', self)
         self.dopaint = False
         self.pushButton.clicked.connect(self.paint)
 

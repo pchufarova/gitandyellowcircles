@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>675</width>
-    <height>582</height>
+    <width>679</width>
+    <height>589</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -24,8 +24,7 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">font: 12pt &quot;MS Shell Dlg 2&quot;;
-font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
+     <string notr="true">font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
     </property>
     <property name="text">
      <string>Генерация круга</string>
@@ -37,7 +36,7 @@ font: 75 12pt &quot;MS Shell Dlg 2&quot;;</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>675</width>
+     <width>679</width>
      <height>21</height>
     </rect>
    </property>
